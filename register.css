@@ -1,0 +1,61 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1495561817763-9a0d0ffb7a54'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #0f0e0e;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for form */
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 400px; /* Fixed width for form */
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333; /* Darker color for headings */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px; /* Margin for labels */
+    font-weight: bold;
+}
+
+input {
+    width: 100%; /* Full width input */
+    padding: 10px;
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+input:focus {
+    border-color: #ffcc00; /* Gold border on focus */
+    outline: none; /* Remove outline */
+}
+
+button {
+    background-color: #ffcc00; /* Gold button */
+    color: #333; /* Dark text color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background transition */
+    font-size: 1.1rem; /* Slightly larger font */
+}
+
+button:hover {
+    background-color: #e6b800; /* Darker gold on hover */
+}
